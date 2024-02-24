@@ -1,0 +1,21 @@
+{
+  "name": "pizzaria-orders-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx serverless offline",
+    "deploy": "npx serverless deploy",
+    "remove": "npx serverless remove"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.518.0",
+    "@aws-sdk/client-s3": "^3.515.0",
+    "@aws-sdk/client-sqs": "^3.515.0",
+    "@aws-sdk/util-dynamodb": "^3.521.0",
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.3.3"
+  }
+}
